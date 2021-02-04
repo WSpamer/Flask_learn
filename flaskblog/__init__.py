@@ -15,7 +15,7 @@ login_manager.login_view = "users.login"
 login_manager.login_message_category = "info"
 mail = Mail()
 
-
+# test
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
